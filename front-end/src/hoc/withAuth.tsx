@@ -20,3 +20,21 @@ const withAuth: HigherOrderComponent = (Component) => {
 };
 
 export default withAuth;
+
+// import React from 'react';
+// // import { Redirect } from 'react-router-dom';
+// import { AmplifyAuthenticator } from '@aws-amplify/ui-react';
+
+// const withAuth: HigherOrderComponent = (Component) => {
+//   const AuthWrapper: React.FC = (props) => {
+//     return (
+//       <AmplifyAuthenticator>
+//         <Component props={props} />
+//       </AmplifyAuthenticator>
+//     );
+//   };
+
+//   return AuthWrapper;
+// };
+
+// export default withAuth;
